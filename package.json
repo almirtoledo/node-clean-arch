@@ -1,12 +1,12 @@
 {
   "name": "node-clean-arch",
   "version": "1.0.0",
-  "main": "dist/main.js",
+  "main": "dist/src/main.js",
   "author": "Almir Toledo <deendsstudios@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node ./dist/main.ts",
-    "build": "rimraf ./dist && tsc",
+    "start": "node ./dist/src/main.js",
+    "build": "rimraf ./dist && tsc -p tsconfig.release.json",
     "dev": "tsx watch ./src/main.ts",
     "test": "vitest",
     "test:coverage": "rimraf ./coverage && vitest run --coverage",
