@@ -1,0 +1,2 @@
+# Node Clean Arch Template
+### DDD + CQRS + SAGA + CLEAN ARCHITECTURE + EVENT SOURCING
