@@ -1,0 +1,8 @@
+/mariadb
+/mongodb
+/node_modules
+/uploads
+/coverage
+/dist
+.env
+*.yml
